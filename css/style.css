@@ -1,0 +1,98 @@
+* {
+    font-family: sans-serif
+}
+
+.header {
+    box-shadow: 0 10px #cecaca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img {
+    width: 175px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: #0D1282;
+}
+
+.header ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header li {
+    padding: 10px;
+}
+
+.main {
+    text-align: center #0d1282;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container text-center {
+    width: 100%;
+    max-width: 800px;
+    min-width: 600px;
+    flex-wrap: wrap;
+    box-shadow: none;
+    color: aliceblue;
+   text-align: center;
+    font-family: roboto serif;
+}
+
+.col {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px;
+    text-overflow: inherit;
+    text-decoration: dotted;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+img {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 0px 3px 5px darkblue (15, 15, 15, .5)
+}
+
+.card mb-3 {
+    align-content: flex-end;
+    width: 100%;
+    min-width: 240px;
+    box-shadow: 0px 3px 5px darkblue (15, 15, 15, .5);
+
+}
+@media (max-width:320px){
+    .card mb-4{
+        align-content: center;
+        padding: 15px;
+        text-overflow: inherit;
+        border-radius: 10%;
+    }
+
+}
+  
+  
+  
